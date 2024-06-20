@@ -4,13 +4,13 @@ const util = require('util');
 const path = require('path');
 
 // Load service account key
-const saKey = path.resolve('./serviceAccountKey.json');
+const saKey = path.resolve('');
 
 const bucketName = 'stylosense-backend-bucket';
 
 // Configure Google Cloud Storage
 const bucketConfig = new Storage({
-    projectId: 'stylosense-final-project',
+    projectId: '',
     keyFilename: saKey,
 });
 
